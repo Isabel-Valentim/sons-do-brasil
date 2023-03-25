@@ -1,0 +1,30 @@
+
+*{
+    margin:0; 
+    padding:0; 
+}
+:root{
+    --gray-color-nav-bar: gray; 
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center; /*vertical*/
+    height: 50px;
+    box-shadow: 5px 5px 20px var(--gray-color-nav-bar);
+}
+nav li{
+    display: inline;
+    padding: 15px;
+}
+/*cor da aba ativa no menu*/
+.active-nav{
+    background: var(--gray-color-nav-bar);
+}
+
