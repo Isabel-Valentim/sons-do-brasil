@@ -1,30 +1,41 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+:root{
+    --font-marriweather: Marriweather, sans-serif; 
+    --dark-blue: #344D67;
+    --dark-green: #6ECCAF;
+    --soft-green: #ADE792; 
+    --soft-yellow: #F3ECB0; 
+
+}
+/*Remove default styles*/
 *{
     margin:0; 
     padding:0; 
 }
-:root{
-    --gray-color-nav-bar: gray; 
+/*Nav Bar*/
+nav{
+    display: flex;
+    align-items: center; /*vertical*/
+    height: 50px;
+    font-family:var(--font-marriweather);
+    font-weight: bold;
 }
+#logo-nav {
 
+}
+nav li{
+    display: inline;
+    padding: 15px;
+}
 ul {
     list-style-type: none;
 }
 a {
     text-decoration: none;
 }
-nav{
-    display: flex;
-    align-items: center; /*vertical*/
-    height: 50px;
-    box-shadow: 5px 5px 20px var(--gray-color-nav-bar);
-}
-nav li{
-    display: inline;
-    padding: 15px;
-}
 /*cor da aba ativa no menu*/
 .active-nav{
-    background: var(--gray-color-nav-bar);
+    background: var(--dark-blue);
 }
 
