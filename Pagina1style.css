@@ -1,0 +1,53 @@
+:root{
+    --font-marriweather: Marriweather, sans-serif; 
+    --dark-blue: #344D67;
+    --dark-green: #6ECCAF;
+    --soft-green: #ADE792; 
+    --soft-baige: #F3ECB0; 
+}
+.container{
+    color: #fff; 
+}
+section{
+    text-align: center; 
+}
+h3, article{
+    padding: 100px;
+}
+article{
+}
+.samba-title, .bossa-nova-title, .mpb-title, .top-samba-container, .middle-bossa-nova-container, .bottom-mpb-container{
+    display:flex;
+    align-items: center;
+}
+.samba-title{
+    font-size: 20px; 
+    text-transform: uppercase;
+    background-color: var(--dark-green);
+    height: 60vh;
+}
+.bossa-nova-title{
+    font-size: 20px; 
+    text-transform: uppercase;
+    background-color: var(--dark-blue);
+    height: 60vh;
+}
+.mpb-title{
+    font-size: 20px; 
+    text-transform: uppercase;
+    background-color: var(--soft-green);
+    height: 60vh;
+}
+.top-samba-container{
+    height: 60vh; 
+    background-image:url(imgs/samba-pessoas.jpg);
+
+}
+.middle-bossa-nova-container{
+    height: 60vh; 
+    background-image: url(imgs/bossa-nova.jpg);
+}
+.bottom-mpb-container{
+    height: 60vh; 
+    background-image:url(imgs/mbp.webp) ;
+}

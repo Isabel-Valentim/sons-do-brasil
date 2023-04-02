@@ -5,13 +5,14 @@
     --dark-blue: #344D67;
     --dark-green: #6ECCAF;
     --soft-green: #ADE792; 
-    --soft-yellow: #F3ECB0; 
+    --soft-baige: #F3ECB0; 
 
 }
 /*Remove default styles*/
 *{
     margin:0; 
     padding:0; 
+    font-family: var(--font-marriweather);
 }
 /*Nav Bar*/
 nav{
@@ -38,4 +39,16 @@ a {
 .active-nav{
     background: var(--dark-blue);
 }
-
+/*Footer*/
+footer{
+    background-color: var(--dark-blue);
+    padding: 40px;
+}
+.footer-conteudo{
+    text-align: center;
+    color:#fff; 
+}
+footer a{
+    font-size: 15px;
+    color:#fff; 
+}
