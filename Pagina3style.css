@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+:root{
+    --font-marriweather: Marriweather, sans-serif;
+    --dark-blue: #344D67;
+    --dark-green: #6ECCAF;
+    --soft-green: #ADE792;
+    --soft-baige: #F3ECB0;
+}
+
+*{
+  font-style: var(--font-marriweather);
+  font-weight: bolder;
+  color: white;
+}
+nav{
+  background-color: var(--dark-blue);
+  align-items: center;
+}
+
+body, html{
+  height: 100%;
+}
+
+
+.container-events{
+    color: #fff;
+}
+
+
+
+section{
+    text-align: center;
+}
+
+
+
+h3, article{
+    padding: 100px;
+}
+
+
+
+.event-title, .event-title2, .event-title3, .container-list, .container-list2, .container-list3 {
+    display:flex;
+    align-items: center;
+    height: 60vh;
+}
+
+
+.event-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: var(--dark-green);
+    height: 60vh;
+    width: 50vh;
+}
+.event-title2{
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: var(--dark-blue);
+    height: 60vh;
+    width: 50vh;
+}
+.event-title3{
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: var(--soft-green);
+    height: 60vh;
+    width: 50vh;
+}
+
+.container-list{
+    height: 60vh;
+    background-image: url(imgs/Queremos_Festival2.png);
+    background-size: 1350px 380px;
+    background-repeat: no-repeat;
+    transition: 0.5s ease-in-out; /* adiciona uma transição suave */
+  }
+
+.container-list2{
+    height: 60vh;
+    background-image: url(imgs/Coolritiba2.png);
+    background-size: 1350px 380px;
+    background-repeat: no-repeat;
+    transition: 0.5s ease-in-out; /* adiciona uma transição suave */
+  }
+.container-list3{
+    height: 60vh;
+    background-image: url(imgs/Rock_Mountain2.png);
+    background-size: 1350px 380px;
+    background-repeat: no-repeat;
+    transition: 0.5s ease-in-out; /* adiciona uma transição suave */
+  }
+
+
+
+  .container-list:hover, .container-list2:hover, .container-list3:hover {
+      filter: brightness(70%); /* reduz o brilho da imagem em 30% */
+  }
+  .container-list .article1, .container-list2 .article2, .container-list3 .article3{
+      opacity: 0; /* torna o texto transparente */
+      transition: 0.5s ease-in-out; /* adiciona uma transição suave */
+  }
+  .container-list:hover .article1, .container-list2:hover .article2, .container-list3:hover .article3{
+      opacity: 1; /* torna o texto visível */
+  }
