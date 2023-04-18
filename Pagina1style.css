@@ -43,7 +43,7 @@
     font-size: 10px; 
     font-weight: bold;
 }
-.music-bars{
+.music-bars-samba{
     display: flex; 
 }
 .bar{
@@ -52,15 +52,17 @@
     border-radius: 10px;
     background-color: var(--dark-green);
     margin: 3px;
+    animation: music-bars-animation1 infinite;
 }
+
 #bar1{
-    animation: music-bars-animation1 infinite alternate;
+    animation-duration: 1s;
 }
 #bar2{
-    animation: music-bars-animation2 infinite alternate;
+    animation-duration: 2s;
 }
 #bar3{
-    animation: music-bars-animation3 infinite alternate;
+    animation-duration: 3s;
 }
 
 @keyframes music-bars-animation1{
