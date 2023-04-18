@@ -1,3 +1,5 @@
+
+
 :root{
     --font-marriweather: Marriweather, sans-serif; 
     --dark-blue: #344D67;
@@ -5,23 +7,80 @@
     --soft-green: #ADE792; 
     --soft-baige: #F3ECB0; 
 }
+
 .container{
-    color: #fff; 
-}
-.top-samba-container{
-    width: 100vw;
+    padding: 30px 120px;
     display: flex;
+    flex-direction: column;
+}
+.origem-container{
+    display: flex;
+}
+.texto-origem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 120px 0px 0px;
+}
+.texto-origem h3{
+    margin-bottom:20px;
+}
+.musica-origem{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-.samba-title{
-    height: 60vh;
-    width: 30%;
-    background-color: var(--dark-green);
-    font-size: 20px;
+.musica-origem img{
+    height: 250px;
+    width: 300px;
+    object-fit:cover;
+    background-position: center;
 }
-.img-samba{
-    height: 60vh;
-    width: 70%;
-    background-image: url(imgs/samba-pessoas.jpg);
-    background-repeat: no-repeat;
+.musica-origem button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 10px; 
+    font-weight: bold;
+}
+.music-bars{
+    display: flex; 
+}
+.bar{
+    width: 5px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--dark-green);
+    margin: 3px;
+}
+#bar1{
+    animation: music-bars-animation1 infinite alternate;
+}
+#bar2{
+    animation: music-bars-animation2 infinite alternate;
+}
+#bar3{
+    animation: music-bars-animation3 infinite alternate;
+}
+
+@keyframes music-bars-animation1{
+    10% {
+        transform: scaleY(0.3); /* start by scaling to 30% */
+      }
+    
+      30% {
+        transform: scaleY(1); /* scale up to 100% */
+      }
+    
+      60% {
+        transform: scaleY(0.5); /* scale down to 50% */
+      }
+    
+      80% {
+        transform: scaleY(0.75); /* scale up to 75% */
+      }
+    
+      100% {
+        transform: scaleY(0.6); /* scale down to 60% */
+      }
 }

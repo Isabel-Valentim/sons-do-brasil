@@ -7,6 +7,7 @@
     <title>Sons do Brasil</title>
     <link rel="stylesheet" href="main-style.css">
     <link rel="stylesheet" href="Pagina1style.css">
+    <script src="https://kit.fontawesome.com/be8a2ccea3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -25,27 +26,59 @@
     </header>
 
     <main>
-        <div class="container">
-            <div class="container-samba">
-                <div class="container-samba-left">
-                    <img src="imgs/samba-pessoas.jpg" alt="Pessoas Escutando Samba">
+        <div class="main-container">
+            <div class="container">
+                <div class="origem-container">
+                    <div class="texto-origem">
+                        <h3>Samba</h3>
+                        <p>As primeiras manifestações que dariam origem ao samba datam do século XVI com negros de Angola e do Congo que chegaram no Brasil como escravos. Eles trouxeram a semente daquele que viria a se tornar um dos mais importantes ritmos do nosso país.Um dos antecessores mais importantes do samba foi o lundu, que era feito nas senzalas. As senzalas eram os alojamentos onde os escravos viviam durante o período da escravatura. O ritmo era dado pela batida com os pés e com as mãos no chão ou no próprio corpo porque não havia tambor ou qualquer outro instrumento musical disponível.</p>
+                        <br>
+                        <p>Foi em 1916 que o então compositor Donga registrou pela primeira vez na Biblioteca Nacional um samba chamado de "Pelo Telefone"</p>
+                    </div>
+                    <div class="musica-origem">
+                        <img src="imgs/Página1/Donga.jpg" alt="">
+                        <br>
+                        <p>Pelo Telefone - Donga</p>
+                        <br>
+                                                    
+                        <div class="music-bars">
+                            <div id = "bar1" class="bar"></div>
+                            <div id = "bar2" class="bar"></div>
+                            <div id = "bar3" class="bar"></div>
+                        </div>
+
+                        <audio id="audio_play">
+                            <source src="audios/Pelo Telefone 1916 - O primeiro samba Brasileiro (mp3cut.net).mp3" type="audio/mp3" />
+                        </audio>
+                        <div class="musica-btn">
+                            <button onclick="document.getElementById('audio_play').play(); return false;"><i class="fa-solid fa-play"></i> PLAY</button>
+                            <button onclick="document.getElementById('audio_play').pause(); return false;"><i class="fa-solid fa-stop"></i> PAUSE</button>
+                        </div>
+                                               
                 </div>
-                <div class="container-samba-right">
-                    <h3>Samba</h3>
-                    <p></p>
+                
+                
                 </div>
+                
+
+                
+
             </div>
 
-            <div class="container-bossa-">
-                <img src="imgs/bossa-nova-tom-jobin.jpeg" alt="Pessoas cantando Bossa Nova">
+            <!---
+                <div class="container-bossa-">
+                <img src="imgs/Página1/bossa-nova-tom-jobin.jpeg" alt="Pessoas cantando Bossa Nova">
             </div>
 
             <div class="container-mpb">
-                <img src="imgs/mbp.webp" alt="">
+                <img src="imgs/Página1/mbp.webp" alt="">
             </div>
-        </div>
-    </main>
+  
 
+            -->
+
+        </div>   
+    </main>
     <footer>
         <div class="footer-conteudo">
             <h4>Outras informações</h4>
