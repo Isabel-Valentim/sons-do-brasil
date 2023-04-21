@@ -1,20 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
 :root{
-    --font-marriweather: Marriweather, sans-serif;
     --dark-blue: #344D67;
     --dark-green: #6ECCAF;
     --soft-green: #ADE792;
     --soft-baige: #F3ECB0;
-}
-
-*{
-  font-style: var(--font-marriweather);
-  font-weight: bolder;
-  color: white;
-}
-nav{
-  background-color: var(--dark-blue);
-  align-items: center;
 }
 
 body, html{

@@ -1,7 +1,5 @@
 
-
 :root{
-    --font-marriweather: Marriweather, sans-serif; 
     --dark-blue: #344D67;
     --dark-green: #6ECCAF;
     --soft-green: #ADE792; 
@@ -24,17 +22,27 @@
 }
 .texto-origem h3{
     margin-bottom:20px;
+    text-transform: uppercase;
+    color: var(--dark-blue);
+    font-size: 24px; 
 }
 .musica-origem{
     display: flex;
     flex-direction: column;
+    padding: 20px;
     align-items: center;
+    background-color: var(--dark-blue);
+    color:#fff;
+    border-radius: 3px;
 }
 .musica-origem img{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     object-fit:cover;
     background-position: center;
+}
+.titulo_musica{
+    font-size: 20px;
 }
 .musica-origem button{
     width: 50px;
@@ -42,6 +50,9 @@
     border-radius: 50%;
     font-size: 10px; 
     font-weight: bold;
+    background-color: #fff;
+    color: var(--dark-blue);
+    border:none; 
 }
 .music-bars-samba, .music-bars-bossa,.music-bars-mpb{
     display: flex; 

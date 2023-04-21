@@ -1,7 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
 :root{
-    --font-marriweather: Marriweather, sans-serif; 
     --dark-blue: #344D67;
     --dark-green: #6ECCAF;
     --soft-green: #ADE792; 
@@ -12,14 +11,13 @@
 *{
     margin:0; 
     padding:0; 
-    font-family: var(--font-marriweather);
+    font-family:  Montserrat, sans-serif;
 }
 /*Nav Bar*/
 nav{
     display: flex;
     align-items: center; /*vertical*/
     height: 50px;
-    font-family:var(--font-marriweather);
     font-weight: bold;
 }
 #logo-nav {
