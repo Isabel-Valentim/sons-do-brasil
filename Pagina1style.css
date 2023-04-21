@@ -99,3 +99,26 @@
         transform: scaleY(0.6); /* scale down to 60% */
       }
 }
+
+@media( max-width: 960px) {
+
+    .origem-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+    }
+    .texto-origem{
+        text-align: justify;
+        padding: 0px;
+        padding-bottom: 80px;
+
+    }
+    .texto-origem h3{
+       text-align: center;
+    }
+    .pausemusic{
+        display: none; 
+    }
+    
+}
