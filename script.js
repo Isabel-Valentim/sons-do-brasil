@@ -30,7 +30,7 @@ function On(musicType){
         musicBarsBossa.classList.remove('pausemusic')
     }
     else{
-        musicBarsMbp.classList.remove('pausemusic')
+        musicBarsMpb.classList.remove('pausemusic')
     }
 }
 function Off(musicType){
@@ -41,6 +41,6 @@ function Off(musicType){
         musicBarsBossa.classList.add('pausemusic')
     }
     else{
-        musicBarsMbp.classList.add('pausemusic')
+        musicBarsMpb.classList.add('pausemusic')
     }
 }

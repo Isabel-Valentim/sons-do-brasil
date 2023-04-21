@@ -27,6 +27,7 @@
 
     <main>
         <div class="main-container">
+            <!--SAMBA-->
             <div class="container">
                 <div class="origem-container">
                     <div class="texto-origem">
@@ -48,34 +49,77 @@
                         </div>
 
                         <audio id="audio_play">
-                            <source src="audios/Pelo Telefone 1916 - O primeiro samba Brasileiro (mp3cut.net).mp3" type="audio/mp3" />
+                            <source src="audios/Pelo Telefone (1916).mp3" type="audio/mp3" />
                         </audio>
                         <div class="musica-btn">
-                            <button class="btnPlaySamba" onclick="document.getElementById('audio_play').play(); return false;"><i class="fa-solid fa-play"></i> PLAY</button>
-                            <button class="btnPauseSamba" onclick="document.getElementById('audio_play').pause(); return false;"><i class="fa-solid fa-stop"></i> PAUSE</button>
+                            <button class="btnPlaySamba" onclick="document.getElementById('audio_play').play(); return false;"><i class="fa-solid fa-play"></i></button>
+                            <button class="btnPauseSamba" onclick="document.getElementById('audio_play').pause(); return false;"><i class="fa-solid fa-stop"></i></button>
+                        </div>                           
+                </div>
+                </div>
+            </div>
+            <!--BOSSA NOVA-->
+            <div class="container">
+                <div class="origem-container">
+                    <div class="texto-origem">
+                        <h3>Bossa Nova</h3>
+                        <p>A Bossa Nova é um gênero musical brasileiro que surgiu no final da década de 1950 e que possui influências do samba e do jazz estadunidense. Criada por João Gilberto, a Bossa Nova marca uma ruptura com o estilo, som e atitude da música brasileira tocada nas rádios até aquele momento. Até o início da Bossa Nova, a música brasileira dos anos de 1930 era caracterizada pelos excessos. Grandes arranjos instrumentais acompanhavam grandes interpretações vocais, obedecendo um estilo operístico.</p>
+                        <br>
+                        <p>Se até então o exagero era o padrão, a Bossa Nova propôs o contrário: a simplicidade. Nesse movimento, João Gilberto se uniu a Tom Jobim, Newton Mendonça, Carlos Lyra, Vinicius de Moraes e Nara Leão na criação da Bossa Nova.</p>
+                    </div>
+                    <div class="musica-origem">
+                        <img src="imgs/Página1/JoãoGilberto.jpg" alt="">
+                        <br>
+                        <p>Chega de Saudade - João Gilberto</p>
+                        <br>
+                                                    
+                        <div class="music-bars-bossa pausemusic">
+                            <div id = "bar1" class="bar"></div>
+                            <div id = "bar2" class="bar"></div>
+                            <div id = "bar3" class="bar"></div>
                         </div>
-                                               
+
+                        <audio id="audio_play_bossa">
+                            <source src="audios/Chega de saudade João Gilberto.mp3" type="audio/mp3" />
+                        </audio>
+                        <div class="musica-btn">
+                            <button class="btnPlayBossa" onclick="document.getElementById('audio_play_bossa').play(); return false;"><i class="fa-solid fa-play"></i></button>
+                            <button class="btnPauseBossa" onclick="document.getElementById('audio_play_bossa').pause(); return false;"><i class="fa-solid fa-stop"></i></button>
+                        </div>                          
+                </div>      
                 </div>
-                
-                
+            </div>
+            <!--MPB-->
+            <div class="container">
+                <div class="origem-container">
+                    <div class="texto-origem">
+                        <h3>MPB</h3>
+                        <p>A expressão “música popular” é usada por aqui há séculos, mas sem se referir a nenhum movimento ou grupo artístico específico. A história da MPB só começa de verdade na segunda metade da década de 60.O contexto era o seguinte: a bossa nova, com influências do samba e do jazz americano, fazia sucesso com sua proposta de criar músicas mais sofisticadas, falando do cotidiano e das belezas do Brasil. Grandes nomes como Tom Jobim, Vinicius de Moraes e Nara Leão já faziam sucesso com esse movimento.</p>
+                        <br>
+                        <p>O marco inicial da MPB foi a música Arrastão, escrita por Edu Lobo e Vinicius de Moraes e interpretada por Elis Regina. Além de inaugurar o que viria a ser conhecido como Música Popular Brasileira, a canção ainda foi o pontapé inicial da brilhante carreira de Elis.</p>
+                    </div>
+                    <div class="musica-origem">
+                        <img src="imgs/Página1/Elis.jpg" alt="">
+                        <br>
+                        <p>Arrastão - Elis Regina</p>
+                        <br>
+                                                    
+                        <div class="music-bars-mpb pausemusic">
+                            <div id = "bar1" class="bar"></div>
+                            <div id = "bar2" class="bar"></div>
+                            <div id = "bar3" class="bar"></div>
+                        </div>
+
+                        <audio id="audio_play_mpb">
+                            <source src="audios/Elis Regina - Arrastão.mp3" type="audio/mp3" />
+                        </audio>
+                        <div class="musica-btn">
+                            <button class="btnPlayMpb" onclick="document.getElementById('audio_play_mpb').play(); return false;"><i class="fa-solid fa-play"></i></button>
+                            <button class="btnPauseMpb" onclick="document.getElementById('audio_play_mpb').pause(); return false;"><i class="fa-solid fa-stop"></i></button>
+                        </div>                                           
+                </div>               
                 </div>
-                
-
-                
-
             </div>
-
-            <!---
-                <div class="container-bossa-">
-                <img src="imgs/Página1/bossa-nova-tom-jobin.jpeg" alt="Pessoas cantando Bossa Nova">
-            </div>
-
-            <div class="container-mpb">
-                <img src="imgs/Página1/mbp.webp" alt="">
-            </div>
-  
-
-            -->
 
         </div>   
     </main>
