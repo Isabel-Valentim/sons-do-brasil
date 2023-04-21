@@ -41,7 +41,7 @@
                         <p>Pelo Telefone - Donga</p>
                         <br>
                                                     
-                        <div class="music-bars-samba">
+                        <div class="music-bars-samba pausemusic">
                             <div id = "bar1" class="bar"></div>
                             <div id = "bar2" class="bar"></div>
                             <div id = "bar3" class="bar"></div>
@@ -51,8 +51,8 @@
                             <source src="audios/Pelo Telefone 1916 - O primeiro samba Brasileiro (mp3cut.net).mp3" type="audio/mp3" />
                         </audio>
                         <div class="musica-btn">
-                            <button onclick="document.getElementById('audio_play').play(); return false;"><i class="fa-solid fa-play"></i> PLAY</button>
-                            <button onclick="document.getElementById('audio_play').pause(); return false;"><i class="fa-solid fa-stop"></i> PAUSE</button>
+                            <button class="btnPlaySamba" onclick="document.getElementById('audio_play').play(); return false;"><i class="fa-solid fa-play"></i> PLAY</button>
+                            <button class="btnPauseSamba" onclick="document.getElementById('audio_play').pause(); return false;"><i class="fa-solid fa-stop"></i> PAUSE</button>
                         </div>
                                                
                 </div>
@@ -88,9 +88,6 @@
             </ul>
         </div>
     </footer>
-   <script>
-    btnPlay = document.querySelector()
-
-   </script>
+    <script src="script.js"></script>
 </body>
 </html>

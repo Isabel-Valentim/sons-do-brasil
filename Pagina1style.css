@@ -64,7 +64,9 @@
 #bar3{
     animation-duration: 3s;
 }
-
+.pausemusic{
+    display: none; 
+}
 @keyframes music-bars-animation1{
     10% {
         transform: scaleY(0.3); /* start by scaling to 30% */
