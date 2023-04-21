@@ -78,6 +78,9 @@
 .pausemusic{
     display: none; 
 }
+.musica-btn button{
+    margin: 10px; 
+}
 @keyframes music-bars-animation1{
     10% {
         transform: scaleY(0.3); /* start by scaling to 30% */
