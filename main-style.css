@@ -14,28 +14,42 @@
     font-family:  Montserrat, sans-serif;
 }
 /*Nav Bar*/
+
 nav{
     display: flex;
     align-items: center; /*vertical*/
     height: 50px;
     font-weight: bold;
+    background-color: var(--dark-blue);
+    justify-content: space-between;
 }
 #logo-nav {
-
+    margin: 10px;
 }
 nav li{
     display: inline;
     padding: 15px;
+
 }
-ul {
+nav ul, footer ul {
     list-style-type: none;
 }
-a {
+nav a{
     text-decoration: none;
+    color:#fff;
+    font-size: 15px;
 }
+nav a:hover{
+    font-size:17px;
+}
+
 /*cor da aba ativa no menu*/
 .active-nav{
-    background: var(--dark-blue);
+    background: var(--dark-green);
+    color: var(--dark-blue)
+}
+.active-nav a{
+    color: var(--dark-blue)
 }
 /*Footer*/
 footer{
