@@ -1,0 +1,96 @@
+:root{
+    --dark-blue: #344D67;
+    --dark-green: #6ECCAF;
+    --soft-green: #ADE792; 
+    --soft-baige: #F3ECB0; 
+}
+.container {
+    padding: 50px;
+}
+.titulos{
+    text-align: center;
+    color: #344D67;
+}
+.nomes{
+    padding-bottom: 10px;
+}
+.artistas-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.artistas{
+    width: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-left: 10px;
+    border-left: 3px solid var(--soft-baige);
+    text-align: justify;
+}
+.artista-foto{
+    height: 230px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+.destaque{
+    border-bottom: 3px solid var(--soft-green);
+    border-radius: 3px;
+}
+#art-1{
+    background-image: url(../trabalho-1b-web-main/imgs/lossy-page1-1200px-Ernesto_Santos_\(Donga\)_2_\(1972\).tif.jpg);
+}
+#art-2{
+    background-image: url(../trabalho-1b-web-main/imgs/CartolaMusical.jpg);
+}
+#art-3{
+    background-image: url(../trabalho-1b-web-main/imgs/elza-1.webp);
+}
+#art-4{
+    background-image: url(../trabalho-1b-web-main/imgs/zeca.webp);
+}
+#art-5{
+    background-image: url(../trabalho-1b-web-main/imgs/alcione.webp)
+}
+#art-6{
+    background-image: url(../trabalho-1b-web-main/imgs/pericles.jpg)
+}
+#art-7{
+    background-image: url(../trabalho-1b-web-main/imgs/joaogilberto.webp);
+}
+#art-8{
+    background-image: url(../trabalho-1b-web-main/imgs/viniciusdemoraes.webp);
+}
+#art-9{
+    background-image: url(../trabalho-1b-web-main/imgs/naraleao.jpg)
+}
+#art-10{
+    background-image: url(../trabalho-1b-web-main/imgs/robertomenescal.jpg);
+}
+#art-11{
+    background-image: url(../trabalho-1b-web-main/imgs/tomjobim.webp)
+}
+#art-12{
+    background-image: url(../trabalho-1b-web-main/imgs/carloslyra.jpg);
+}
+#art-13{
+    background-image: url(../trabalho-1b-web-main/imgs/elisregina.webp);
+}
+#art-14{
+    background-image: url(../trabalho-1b-web-main/imgs/gilbertogil.jpg)
+}
+#art-15{
+    background-image: url(../trabalho-1b-web-main/imgs/caetanoveloso.jpg)
+}
+#art-16{
+    background-image: url(../trabalho-1b-web-main/imgs/chicobuarque.jpg);
+}
+#art-17{
+    background-image: url(../trabalho-1b-web-main/imgs/djavan.webp);
+}
+#art-18{
+    background-image: url(../trabalho-1b-web-main/imgs/robertocarlos.webp);
+}
