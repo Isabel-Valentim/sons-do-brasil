@@ -1,0 +1,38 @@
+.main_contatos form{
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    width: 60%;
+    margin:auto;
+}
+.main_contatos .redes {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.main_contatos input[type=text], textarea{
+    padding: 10px;
+}
+.main_contatos input[type=submit] {
+    background-color: #F1F1F1;
+    color: #000;
+    padding: 10px 15px;
+    width: 20%;
+    
+}
+.main_contatos input[type=submit]:hover {
+    background-color: #3f4241;
+    color: #fff;
+}
+.main_contatos *{
+    margin: 5px;
+}
+.redes ul{
+    list-style-type: none;
+}
+.redes ul li {
+    display:inline;
+    color: #000;
+    padding: 10px 10px;
+    font-size: 30px;  
+}
