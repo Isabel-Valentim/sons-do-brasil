@@ -1,9 +1,20 @@
+:root{
+    --dark-blue: #344D67;
+    --dark-green: #6ECCAF;
+    --soft-green: #ADE792; 
+    --soft-baige: #F3ECB0; 
+
+}
+*{
+    color: var(--dark-blue)
+}
 .main_contatos form{
     display:flex;
     flex-direction: column;
     align-items: left;
     width: 60%;
     margin:auto;
+    color: rgb(9, 9, 9); 
 }
 .main_contatos .redes {
     display: flex;
@@ -14,11 +25,10 @@
     padding: 10px;
 }
 .main_contatos input[type=submit] {
-    background-color: #F1F1F1;
-    color: #000;
+    background-color: var(--dark-blue);
+    color: #fff;
     padding: 10px 15px;
-    width: 20%;
-    
+    width: 20%;  
 }
 .main_contatos input[type=submit]:hover {
     background-color: #3f4241;
