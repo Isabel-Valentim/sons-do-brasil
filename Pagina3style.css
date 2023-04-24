@@ -5,84 +5,66 @@
     --soft-green: #ADE792;
     --soft-baige: #F3ECB0;
 }
-
-body, html{
-  height: 100%;
-}
-
-
 .container-events{
     color: #fff;
 }
-
-
-
-section{
-    text-align: center;
-}
-
-
-
 h3, article{
-    padding: 100px;
+    padding: 16vh;
 }
-
-
-
+article{
+    font-size: 16pt;
+    padding: 5vw;
+}
 .event-title, .event-title2, .event-title3, .container-list, .container-list2, .container-list3 {
     display:flex;
     align-items: center;
     height: 60vh;
 }
-
-
 .event-title{
-    font-size: 20px;
+    font-size: 3.2vh;
     text-transform: uppercase;
     background-color: var(--dark-green);
     height: 60vh;
     width: 50vh;
 }
 .event-title2{
-    font-size: 20px;
+    font-size: 3.2vh;
     text-transform: uppercase;
     background-color: var(--dark-blue);
     height: 60vh;
     width: 50vh;
 }
 .event-title3{
-    font-size: 20px;
+    font-size: 3.2vh;
     text-transform: uppercase;
     background-color: var(--soft-green);
     height: 60vh;
     width: 50vh;
 }
-
 .container-list{
     height: 60vh;
     background-image: url(imgs/Queremos_Festival2.png);
-    background-size: 1350px 380px;
+    background-size: cover;
+    width: 100%;
     background-repeat: no-repeat;
     transition: 0.5s ease-in-out; /* adiciona uma transição suave */
   }
-
 .container-list2{
     height: 60vh;
     background-image: url(imgs/Coolritiba2.png);
-    background-size: 1350px 380px;
+    background-size: cover;
+    width: 100%;
     background-repeat: no-repeat;
     transition: 0.5s ease-in-out; /* adiciona uma transição suave */
   }
 .container-list3{
     height: 60vh;
     background-image: url(imgs/Rock_Mountain2.png);
-    background-size: 1350px 380px;
+    background-size: cover;
+    width: 100%;
     background-repeat: no-repeat;
     transition: 0.5s ease-in-out; /* adiciona uma transição suave */
   }
-
-
-
   .container-list:hover, .container-list2:hover, .container-list3:hover {
       filter: brightness(70%); /* reduz o brilho da imagem em 30% */
   }
