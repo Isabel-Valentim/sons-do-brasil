@@ -45,6 +45,7 @@ body, html {
     grid-template-rows: 200px;
     column-gap: 10px; 
     padding: 30px 100px 60px 100px; 
+    justify-content: center;
 }
 .other-pages-grid > div{
     display: flex;
